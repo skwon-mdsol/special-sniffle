@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blueprint SPA test page</title>
+  <% cssFiles.forEach(f => { %>
+    <link rel="stylesheet" href="<%= assetsBase %><%= f %>">
+  <% }) %>
+</head>
+<body>
+  <div id="dev-header"></div>
+  <div id="main"></div>
+  <script>
+    var electron = require('electron');
+  </script>
+  <% jsFiles.forEach(f => { %>
+    <script src="<%= assetsBase %><%= f %>"></script>
+  <% }) %>
+
+</body>
+</html>

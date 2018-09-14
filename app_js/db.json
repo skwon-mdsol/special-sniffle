@@ -1,0 +1,47 @@
+{
+  "medidations": [
+    {
+      "id": 1,
+      "name": "Bernardo Zuniga",
+      "titleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Max Polun",
+      "titleId": 2
+    },
+    {
+      "id": 3,
+      "name": "Vladimir Ugryumov",
+      "titleId": 2
+    },
+    {
+      "id": 4,
+      "name": "Richard Kichenama",
+      "titleId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sean Kwon",
+      "titleId": 2
+    },
+    {
+      "name": "Tim Tester",
+      "titleId": "1",
+      "id": 6
+    }
+  ],
+  "titles": {
+    "titleIds": [1, 2],
+    "entities": {
+      "1": {
+        "id": 1,
+        "value": "Manager"
+      },
+      "2": {
+        "id": 2,
+        "value": "Engineer"
+      }
+    }
+  }
+}

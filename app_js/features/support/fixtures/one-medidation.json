@@ -1,0 +1,15 @@
+{
+  "medidations": [
+    {
+      "id": 1,
+      "name": "Testy McTestface",
+      "titleId": 1
+    }
+  ],
+  "titles": [
+    {
+      "id": 1,
+      "value": "Test Title"
+    }
+  ]
+}
